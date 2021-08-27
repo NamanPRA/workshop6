@@ -38,7 +38,7 @@ jobs:
     steps: 
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.12.12
-    with:
-      heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-      heroku_app_name: "prbeb"
-      heroku_email: "20140157@students.latrobe.edu.au"
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "prbeb"
+        heroku_email: "20140157@students.latrobe.edu.au"
