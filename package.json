@@ -1,0 +1,29 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.0",
+    "supertest": "^6.1.6"
+  },
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamanPRA/workshop6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NamanPRA/workshop6/issues"
+  },
+  "homepage": "https://github.com/NamanPRA/workshop6#readme"
+}
